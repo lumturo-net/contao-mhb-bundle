@@ -37,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Lumturo\\MhbBundle\\": "src/"
+            "Lumturo\\ContaoMhbBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lumturo\\MhbBundle\\Tests\\": "tests/"
+            "Lumturo\\ContaoMhbBundle\\Tests\\": "tests/"
         }
     },
     "support": {
