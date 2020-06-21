@@ -33,7 +33,7 @@
         "symfony/phpunit-bridge": "^3.2"
     },
     "extra": {
-        "contao-manager-plugin": "Lumturo\\MhbBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Lumturo\\ContaoMhbBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
