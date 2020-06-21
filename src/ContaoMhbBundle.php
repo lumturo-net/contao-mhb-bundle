@@ -8,7 +8,7 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Lumturo\MhbBundle;
+namespace Lumturo\ContaoMhbBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
