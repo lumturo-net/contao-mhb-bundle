@@ -1,0 +1,70 @@
+mhb_application_notify_paydirect:
+    path: /giropay/application/notifypaydirekt
+    defaults:
+        _controller: ContaoMhbBundle:Application:notifypaydirekt
+        _scope: frontend
+        _token_check: false
+
+mhb_application_notify_paypal:
+    path: /giropay/application/notifypaypal
+    defaults:
+        _controller: ContaoMhbBundle:Application:notifypaypal
+        _scope: frontend
+        _token_check: false
+
+mhb_application_notify_creditcard:
+    path: /giropay/application/notifycreditcard
+    defaults:
+        _controller: ContaoMhbBundle:Application:notifycreditcard
+        _scope: frontend
+        _token_check: false
+
+mhb_application_notify_giropay:
+    path: /giropay/application/notifygiropay
+    defaults:
+        _controller: ContaoMhbBundle:Application:notifygiropay
+        _scope: frontend
+        _token_check: false
+
+mhb_application_notify_debit:
+    path: /giropay/application/notifydebit
+    defaults:
+        _controller: ContaoMhbBundle:Application:notifydebit
+        _scope: frontend
+        _token_check: false
+
+#HIT
+mhb_hit_notify_creditcard:
+    path: /giropay/hit/notifycreditcard
+    defaults:
+        _controller: ContaoMhbBundle:Hit:notifycreditcard
+        _scope: frontend
+        _token_check: false
+
+mhb_hit_notify_paypal:
+    path: /giropay/hit/notifypaypal
+    defaults:
+        _controller: ContaoMhbBundle:Hit:notifypaypal
+        _scope: frontend
+        _token_check: false
+
+mhb_hit_notify_giropay:
+    path: /giropay/hit/notifygiropay
+    defaults:
+        _controller: ContaoMhbBundle:Hit:notifygiropay
+        _scope: frontend
+        _token_check: false
+
+mhb_hit_notify_debit:
+    path: /giropay/hit/notifydebit
+    defaults:
+        _controller: ContaoMhbBundle:Hit:notifydebit
+        _scope: frontend
+        _token_check: false
+
+mhb_hit_notify_paydirekt:
+    path: /giropay/hit/notifypaydirekt
+    defaults:
+        _controller: ContaoMhbBundle:Hit:notifypaydirekt
+        _scope: frontend
+        _token_check: false

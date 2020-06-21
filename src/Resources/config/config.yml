@@ -1,0 +1,5 @@
+doctrine:
+    dbal:
+        connections:
+            default:
+                server_version:          "5.7" #kriege sonst eine exception beim Aufruf der console :-(
