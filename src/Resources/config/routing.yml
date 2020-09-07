@@ -1,3 +1,10 @@
+mhb_event_application:
+    path: /event/apply
+    defaults:
+        _controller: ContaoMhbBundle:Event:apply
+        _scope: frontend
+        _token_check: false
+        
 mhb_application_notify_paydirect:
     path: /giropay/application/notifypaydirekt
     defaults:
