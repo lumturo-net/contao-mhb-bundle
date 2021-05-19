@@ -52,14 +52,14 @@ function ArrGet($array, $key, $default = NULL)
 
 function sendMail($objEvent, $arrDbApplication)
 {
-   $objEmail = new \Email();
-   $objEmail->charset = 'utf-8';
-   $objEmail->subject = 'MHB | Events | Neue Anmeldung für ' . strip_tags(trim($objEvent->titel));
-   $objEmail->from = 'itnachrichten.mhb@mhb-fontane.de';
-   $objHtmlMailTemplate = new \Contao\FrontendTemplate('mhb_event_application_organizer_email');
-   $objHtmlMailTemplate->event = $objEvent;
-   $objHtmlMailTemplate->application = $arrDbApplication;
+    $objEmail = new \Email();
+    $objEmail->charset = 'utf-8';
+    $objEmail->subject = 'MHB | Events | Neue Anmeldung für ' . strip_tags(trim($objEvent->titel));
+    $objEmail->from = 'itnachrichten.mhb@mhb-fontane.de';
+    $objHtmlMailTemplate = new \Contao\FrontendTemplate('mhb_event_application_organizer_email');
+    $objHtmlMailTemplate->event = $objEvent;
+    $objHtmlMailTemplate->application = $arrDbApplication;
 //    $objHtmlMailTemplate->job = $arrDbApplication;
-   $objEmail->html = $objHtmlMailTemplate->parse();
-   $objEmail->sendTo($objEvent->email);
+    $objEmail->html = $objHtmlMailTemplate->parse();
+    $objEmail->sendTo($objEvent->email);
 }
