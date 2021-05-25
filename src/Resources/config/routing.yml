@@ -4,7 +4,7 @@ mhb_event_application:
         _controller: ContaoMhbBundle:Event:apply
         _scope: frontend
         _token_check: false
-        
+
 mhb_application_notify_paydirect:
     path: /giropay/application/notifypaydirekt
     defaults:
@@ -75,3 +75,14 @@ mhb_hit_notify_paydirekt:
         _controller: ContaoMhbBundle:Hit:notifypaydirekt
         _scope: frontend
         _token_check: false
+
+mhb_svg_map_pin:
+    path: /map-pin/{color1}/{color2}/{color3}
+    defaults:
+        _controller: ContaoMhbBundle:Pin:generate
+        _scope: fontend
+        _token_check: false
+        color1: ffffff
+        color2: ffffff
+        color3: ffffff
+
