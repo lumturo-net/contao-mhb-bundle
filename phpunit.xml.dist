@@ -5,6 +5,7 @@
          backupGlobals="false"
          colors="true"
 >
+
     <php>
         <ini name="error_reporting" value="-1" />
     </php>
